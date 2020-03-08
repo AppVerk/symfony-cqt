@@ -1,0 +1,23 @@
+includes:
+	- extension.neon
+	- rules.neon
+	- vendor/phpstan/phpstan-phpunit/extension.neon
+	- vendor/phpstan/phpstan-phpunit/rules.neon
+	- vendor/phpstan/phpstan-strict-rules/rules.neon
+	- phar://phpstan.phar/conf/bleedingEdge.neon
+
+parameters:
+	inferPrivatePropertyTypeFromConstructor: true
+	excludes_analyse:
+		- tests/tmp/*
+		- tests/*/Example*.php
+		- tests/*/console_application_loader.php
+		- tests/*/envelope_all.php
+		- tests/*/header_bag_get.php
+		- tests/*/kernel_interface.php
+		- tests/*/request_get_content.php
+		- tests/*/request_get_session.php
+		- tests/*/serializer.php
+		- tests/*/denormalizer.php
+		- var/*
+		- vendor/*
