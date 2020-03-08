@@ -5,7 +5,7 @@ $finder = PhpCsFixer\Finder::create()
     ->exclude('output')
     ->exclude('releases')
     ->exclude('var')
-    ->in(__DIR__)
+    ->in(__DIR__.'/../../../')
 ;
 
 return PhpCsFixer\Config::create()
