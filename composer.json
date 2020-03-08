@@ -1,7 +1,7 @@
 {
     "name": "appverk/symfony-cqt",
     "license": "MIT",
-    "require-dev": {
+    "require": {
         "friendsofphp/php-cs-fixer": "^2.16",
         "phpstan/phpstan-symfony": "^0.12.4",
         "phpstan/phpstan-strict-rules": "^0.12.2",
@@ -15,5 +15,5 @@
             "email": "hubert.bernaciak@appverk.com"
         }
     ],
-    "require": {}
+    "require-dev": {}
 }
