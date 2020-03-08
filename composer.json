@@ -2,7 +2,7 @@
     "name": "appverk/symfony-cqt",
     "license": "MIT",
     "require": {
-        "friendsofphp/php-cs-fixer": "^2.16",
+        "friendsofphp/php-cs-fixer": "dev-master",
         "phpstan/phpstan-symfony": "^0.12.4",
         "phpstan/phpstan-strict-rules": "^0.12.2",
         "phpstan/phpstan-phpunit": "^0.12.2",
